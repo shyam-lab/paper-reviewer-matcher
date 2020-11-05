@@ -1,4 +1,5 @@
 docopt
+pandas
 numpy
 scipy
 nltk
