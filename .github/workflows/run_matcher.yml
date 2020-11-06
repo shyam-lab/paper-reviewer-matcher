@@ -27,7 +27,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run the matcher code
       run: |
-        python mindmatch.py data/mindmatch_example.csv --n_match=6 --n_trim=600 --output=test.csv
+        python mindmatch.py data/mindmatch_example.csv --n_match=6 --n_trim=650
         cat output_match.csv
         echo "All success"
 
